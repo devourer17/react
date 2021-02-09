@@ -7,6 +7,8 @@ import HelloWorldJSX from './components/JSX-HelloWorld.js'
 import GreetUser from './components/PropsComponent'
 import MessageComponent from "./components/StateComponent";
 import Destructuring from "./components/DestructuringPropsAndStates";
+import EventHandling from "./components/EventHandling";
+import BindingEventHandlers from "./components/BindingEventHandlers";
 
 function App() {
     return (
@@ -21,7 +23,9 @@ function App() {
             {/*    This is a children prop*/}
             {/*</GreetUser>*/}
             {/*<MessageComponent />*/}
-            <Destructuring firstName="Vivek" secondName="Singh"/>
+            {/*<Destructuring firstName="Vivek" secondName="Singh"/>*/}
+            {/*<EventHandling />*/}
+            <BindingEventHandlers/>
         </div>
     );
 }

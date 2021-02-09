@@ -9,6 +9,8 @@ import MessageComponent from "./components/StateComponent";
 import Destructuring from "./components/DestructuringPropsAndStates";
 import EventHandling from "./components/EventHandling";
 import BindingEventHandlers from "./components/BindingEventHandlers";
+import ParentComponent from "./components/relation/ParentComponent";
+import ConditionalRendering from "./components/ConditionalRendering";
 
 function App() {
     return (
@@ -25,7 +27,9 @@ function App() {
             {/*<MessageComponent />*/}
             {/*<Destructuring firstName="Vivek" secondName="Singh"/>*/}
             {/*<EventHandling />*/}
-            <BindingEventHandlers/>
+            {/*<BindingEventHandlers/>*/}
+            {/*<ParentComponent/>*/}
+            <ConditionalRendering/>
         </div>
     );
 }

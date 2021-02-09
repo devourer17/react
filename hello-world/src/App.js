@@ -11,6 +11,9 @@ import EventHandling from "./components/EventHandling";
 import BindingEventHandlers from "./components/BindingEventHandlers";
 import ParentComponent from "./components/relation/ParentComponent";
 import ConditionalRendering from "./components/ConditionalRendering";
+import SimpleListRendering from "./components/listrendering/SimpleListRendering";
+import ComplexListRendering from "./components/listrendering/ComplexListRendering";
+import PersonsRender from "./components/listrendering/PersonsRender";
 
 function App() {
     return (
@@ -29,7 +32,10 @@ function App() {
             {/*<EventHandling />*/}
             {/*<BindingEventHandlers/>*/}
             {/*<ParentComponent/>*/}
-            <ConditionalRendering/>
+            {/*<ConditionalRendering/>*/}
+            {/*<SimpleListRendering/>*/}
+            {/*<ComplexListRendering/>*/}
+            <PersonsRender/>
         </div>
     );
 }
